@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 10px;
+}
+
+li {
+  margin: 10px;
+}
+
+input {
+  margin: 10px;
+  padding: 5px;
+  border: none;
+  outline: 0;
+  background: transparent;
+  border-bottom: 2px solid #3478db;
+}
+
+button {
+  background-color: #3478db;
+  padding: 5px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+  box-shadow: 1px 3px 11px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0);
+}
